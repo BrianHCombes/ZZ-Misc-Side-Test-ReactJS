@@ -6,7 +6,7 @@ const Layout = () => {
          
     <div style={{textAlign:"center"}}> 
     
-          <br /><br /><br /><br /><br /><br />
+          <br />
       
           <div>
           <Link to="/"><button>Home</button></Link>&nbsp;&nbsp;&nbsp;
@@ -19,7 +19,7 @@ const Layout = () => {
           </div>            
         
 
-      <div style={{color:"red", marginTop:"15%"}}><Outlet /></div>
+      <div style={{color:"red"}}><Outlet /></div>
     </div>
   );
   
