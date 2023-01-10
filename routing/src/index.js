@@ -16,6 +16,8 @@ import ContactPage1 from "./pages/ContactPages/ContactPage1";
 import ContactPage2 from "./pages/ContactPages/ContactPage2";
 import ContactPage3 from "./pages/ContactPages/ContactPage3";
 
+import ResponsePage from "./responseTest/ResponsePage";
+
 
 export default function App() {
   return (
@@ -33,6 +35,7 @@ export default function App() {
                 <Route path="contactPage2" element={<ContactPage2 />} />
                 <Route path="contactPage3" element={<ContactPage3 />} />
             </Route>
+            <Route path="/response" element={<ResponsePage />} />
             <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
