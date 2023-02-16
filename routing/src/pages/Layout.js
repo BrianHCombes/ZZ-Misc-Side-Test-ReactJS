@@ -15,11 +15,11 @@ const Layout = () => {
             
           <Link to="/contact"><button>Contact for thee</button></Link>&nbsp;&nbsp;&nbsp;
           
-          <Link to="/response"><button>Response Test</button></Link>
+          <Link to="/responsePage"><button>LR Response Page</button></Link>
           </div>            
         
 
-      <div style={{color:"red"}}><Outlet /></div>
+      <div style={{color:"green"}}><Outlet /></div>
     </div>
   );
   
