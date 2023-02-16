@@ -47,8 +47,8 @@ function ResponsePage(){
           to apply basic DOM manipulation form as catered to by various application frameworks.<br /> <br />
           </div>
           <div>
-    {/* LR Here  */}       
-            <table className='exampTable2' style={{width:'94%', margin:'0 auto', fontSize:lr.w("em",1,600,0.6,0.4)}}>   
+    {/* LR is Here  */}       
+            <table className='exampTable2' style={{width:'96%', margin:'0 auto', fontSize:lr.w("em",1,600,0.6,0.4)}}>   
               <tr>
                 <td colSpan='6' style={{width:'100%', textAlign:'center', color:'blue'}}>
                   Choose Your Example
@@ -92,9 +92,8 @@ function ResponsePage(){
       
     {/* lr.w(args) example  ********************************************************************************************************/}      
     <div id='lrw' style={{position:'relative', width: lr.w('%',58,100), margin:'0 auto'}}>  
-      <button className="toTop" onClick={() => window.scrollTo(0,0)} style={{position:'absolute', left:'3.3%', top:'2%'}}><b>To Top</b></button>
+      <button className="button" onClick={() => window.scrollTo(0,0)} style={{position:'absolute', left:'3.3%', top:'1%',}}><b>To Top</b></button>
       <table  className='exampTable'>
-      
     {/* LR is Here  */}  
         <tr>
           <th colspan="2" style={{fontSize:lr.w('em',2,1.5), padding:'1%'}} >
