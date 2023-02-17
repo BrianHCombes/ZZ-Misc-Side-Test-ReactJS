@@ -18,6 +18,8 @@ import ContactPage3 from "./pages/ContactPages/ContactPage3";
 
 import ResponsePage from "./responseTest/ResponsePage";
 
+import PropPage from "./propertyPage/PropPage";
+
 
 export default function App() {
   return (
@@ -36,6 +38,8 @@ export default function App() {
                 <Route path="contactPage3" element={<ContactPage3 />} />
             </Route>
             <Route path="/responsePage" element={<ResponsePage />} />
+            <Route path="/propPage" element={<PropPage />} />
+                
             <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>

@@ -15,7 +15,9 @@ const Layout = () => {
             
           <Link to="/contact"><button>Contact for thee</button></Link>&nbsp;&nbsp;&nbsp;
           
-          <Link to="/responsePage"><button>LR Response Page</button></Link>
+          <Link to="/responsePage"><button>LR Response Page</button></Link>&nbsp;&nbsp;&nbsp;
+          
+          <Link to="/propPage"><button>React Properties Page</button></Link>
           </div>            
         
 
